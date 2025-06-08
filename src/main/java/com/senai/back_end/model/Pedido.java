@@ -15,7 +15,7 @@ public class Pedido {
     @NotBlank(message = "Nome não pode estar vazio")
     private String nome;
 
-    @NotBlank(message = "Descrição não pode estar vazia")
+    @NotBlank(message = "Descricao não pode estar vazia")
     private String descricao;
 
     private Double preco;
@@ -31,6 +31,7 @@ public class Pedido {
 
     public Pedido() {
     }
+
     public Pedido(Long id, String nome, String descricao, Double preco, String categoria, String disponibilidade, String url) {
         this.id = id;
         this.nome = nome;
@@ -57,7 +58,7 @@ public class Pedido {
         this.nome = nome;
     }
 
-    public @NotBlank(message = "Descrição não pode estar vazia") String getDescriçao() {
+    public @NotBlank(message = "Descrição não pode estar vazia") String getDescricao() {
         return descricao;
     }
 

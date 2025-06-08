@@ -1,4 +1,5 @@
 package com.senai.back_end.service;
+
 import com.senai.back_end.model.Pedido;
 import com.senai.back_end.repository.PedidoRepository;
 import org.springframework.stereotype.Service;
@@ -20,6 +21,7 @@ public class PedidoService {
     public List<Pedido> buscarTodos() {
         return pedidoRepository.findAll();
     }
+
     public Pedido buscarPedidoPorId(Long id) {
         return pedidoRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Pedido não encontrado com o ID: " + id));
@@ -37,7 +39,7 @@ public class PedidoService {
                 .orElseThrow(() -> new RuntimeException("Pedido não encontrado com o ID: " + id));
 
         pedidoExistente.setNome(pedidoAtualizado.getNome());
-        pedidoExistente.setDescriçao(pedidoAtualizado.getDescricao());
+        pedidoExistente.setDescricao(pedidoAtualizado.getDescricao());
         pedidoExistente.setPreco(pedidoAtualizado.getPreco());
         pedidoExistente.setCategoria(pedidoAtualizado.getCategoria());
         pedidoExistente.setDisponibilidade(pedidoAtualizado.getDisponibilidade());
