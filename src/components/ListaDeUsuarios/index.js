@@ -27,7 +27,7 @@ function ListaDeUsuarios() {
             ) : (
                 usuarios.map( pedido => (
                     <div className = "cardapio">
-                    <img src = {pedido.url} alt={pedido.nome} className="imagem-cardapio" />
+                        <img src = {pedido.url} alt={pedido.nome} className="imagem-cardapio" />
                     <li key={pedido.id}>
                             
                         <strong>Nome: </strong> {pedido.nome}<br />
