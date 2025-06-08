@@ -37,7 +37,7 @@ public class PedidoService {
                 .orElseThrow(() -> new RuntimeException("Pedido não encontrado com o ID: " + id));
 
         pedidoExistente.setNome(pedidoAtualizado.getNome());
-        pedidoExistente.setDescrição(pedidoAtualizado.getDescrição());
+        pedidoExistente.setDescriçao(pedidoAtualizado.getDescricao());
         pedidoExistente.setPreco(pedidoAtualizado.getPreco());
         pedidoExistente.setCategoria(pedidoAtualizado.getCategoria());
         pedidoExistente.setDisponibilidade(pedidoAtualizado.getDisponibilidade());

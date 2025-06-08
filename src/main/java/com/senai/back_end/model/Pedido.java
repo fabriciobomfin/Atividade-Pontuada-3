@@ -31,10 +31,10 @@ public class Pedido {
 
     public Pedido() {
     }
-    public Pedido(Long id, String nome, String descrição, Double preco, String categoria, String disponibilidade, String url) {
+    public Pedido(Long id, String nome, String descricao, Double preco, String categoria, String disponibilidade, String url) {
         this.id = id;
         this.nome = nome;
-        this.descrição = descrição;
+        this.descricao = descricao;
         this.preco = preco;
         this.categoria = categoria;
         this.disponibilidade = disponibilidade;
@@ -57,12 +57,12 @@ public class Pedido {
         this.nome = nome;
     }
 
-    public @NotBlank(message = "Descrição não pode estar vazia") String getDescrição() {
-        return descrição;
+    public @NotBlank(message = "Descrição não pode estar vazia") String getDescriçao() {
+        return descricao;
     }
 
-    public void setDescrição(@NotBlank(message = "Descrição não pode estar vazia") String descrição) {
-        this.descrição = descrição;
+    public void setDescricao(@NotBlank(message = "Descrição não pode estar vazia") String descricao) {
+        this.descricao = descricao;
     }
 
     public Double getPreco() {
