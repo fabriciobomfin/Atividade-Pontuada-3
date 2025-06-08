@@ -16,7 +16,7 @@ public class Pedido {
     private String nome;
 
     @NotBlank(message = "Descrição não pode estar vazia")
-    private String descrição;
+    private String descricao;
 
     private Double preco;
 
