@@ -26,9 +26,10 @@ function ListaDeUsuarios() {
                 <li>Nenhum usuário encontrado.</li>
             ) : (
                 usuarios.map( pedido => (
+                    <div className = "cardapio">
+                    <img src = {pedido.url} alt={pedido.nome} className="imagem-cardapio" />
                     <li key={pedido.id}>
                             
-                        <img src = {pedido.url} alt={pedido.nome} className="imagem-cardapio" />
                         <strong>Nome: </strong> {pedido.nome}<br />
                         <strong>Descrição: </strong> {pedido.descricao}<br />
                         <strong>Preço: </strong> {pedido.preco}<br />
@@ -37,6 +38,7 @@ function ListaDeUsuarios() {
                        
                         
                     </li>
+                   </div>
                 ))
             )}
         </ul>

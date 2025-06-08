@@ -1,7 +1,12 @@
 /* src\components\ListaDeUsuarios\styles.css */
 
+.cardapio{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 .lista-usuarios li {
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #e9ecef;
