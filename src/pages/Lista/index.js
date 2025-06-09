@@ -1,10 +1,10 @@
 // src\pages\Lista\index.js
 
-import ListaDeUsuarios from "../../components/ListaDeUsuarios";
+import ListaDeUsuarios from "../../components/Cardapio";
 import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
-function PaginaListaUsuarios() {
+function Cardapio() {
   const navigate = useNavigate();
 
   
@@ -21,5 +21,4 @@ function PaginaListaUsuarios() {
   );
 }
 
-
-export default PaginaListaUsuarios;
+export default Cardapio;

@@ -1,14 +1,14 @@
 // src\pages\Cadastro\index.js
 
-import FormularioCadastro from '../../components/FormularioCadastro'
+import FormularioCadastro from '../../components/CadastroPrato'
 import './styles.css'
 
-function PaginaCadastro() {
+function CadastroPrato() {
     return (
         <div className='pagina-cadastro'>
-            <FormularioCadastro/>
+            <CadastroPrato/>
         </div>
     )
 }
 
-export default PaginaCadastro
+export default CadastroPrato
