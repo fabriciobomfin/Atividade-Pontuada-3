@@ -7,16 +7,20 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 
+<<<<<<< HEAD
   background: url('../../assets/images/background.avif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+=======
+  background:url('../../assets/images/background.avif')
+>>>>>>> f92b8b2d (ok)
 }
 
 .imagem {
   display: flex;
   top: 20px;
-  width: 120px;
+  width: 50%;
   position: absolute;
 }
 .welcome-container {
@@ -35,7 +39,7 @@ body {
   background: radial-gradient(
     
     rgba(255, 255, 255, 1) 0%,
-    rgb(255, 180, 41) 100%
+  rgb(128, 128, 128) 100%
   );
 }
 
