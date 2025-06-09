@@ -4,7 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 32px;
-    background: radial-gradient(rgba(255, 255, 255, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(
+    
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 180, 41) 100%
+  );
   }

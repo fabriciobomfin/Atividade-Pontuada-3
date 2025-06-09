@@ -7,17 +7,19 @@ import "./styles.css";
 function PaginaListaUsuarios() {
   const navigate = useNavigate();
 
+  
   return (
     <div className="pagina-lista-usuarios">
       <div className="container">
         <h2>Cardapio</h2>
         <ListaDeUsuarios />
         <button onClick={() => navigate("/")} className="link-voltar">
-          Cadastrar pedido
+          Pagina incial
         </button>
       </div>
     </div>
   );
 }
+
 
 export default PaginaListaUsuarios;

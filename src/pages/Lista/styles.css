@@ -1,18 +1,10 @@
 /* src\pages\Lista\styles.css */
 
 
-.pagina-lista-usuarios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 32px;
-    background-color: #f4f4f4; 
-}
-  
+
 .pagina-lista-usuarios .container {
-    background-color: white;
-    padding: 32px;
+    background-color: rgb(255, 164, 46);
+    padding: 75px;
     box-sizing: border-box;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
