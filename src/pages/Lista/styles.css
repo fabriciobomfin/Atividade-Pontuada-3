@@ -3,9 +3,11 @@
 
 
 .pagina-lista-usuarios .container {
-    background-color: rgb(255, 164, 46);
+  
     padding: 75px;
     box-sizing: border-box;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius:20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 500px;
@@ -19,7 +21,7 @@
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 35px;
-    color: #284ea7;
+    color: #ffb236;
 }
   
 .pagina-lista-usuarios .container .link-voltar {

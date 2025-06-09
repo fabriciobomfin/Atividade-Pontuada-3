@@ -8,7 +8,7 @@ import MensagemFeedback from "../MensagemFeedback";
 import logo from "../../assets/images/logo.png";
 import axios from "axios";
 
-function FormularioCadastro() {
+function Cadastro() {
   const [nome, setNome] = useState("");
   const [descricao, setDescricao] = useState("");
   const [preco, setPreco] = useState("");
@@ -30,7 +30,7 @@ function FormularioCadastro() {
         url
       });
       exibirMensagem(
-        response.data.mensagem || " cadastrado com sucesso!",
+        response.data.mensagem || " Cadastrado com sucesso!",
         "sucesso"
       );
       setNome("");
@@ -128,4 +128,4 @@ function FormularioCadastro() {
   );
 }
 
-export default FormularioCadastro;
+export default Cadastro;

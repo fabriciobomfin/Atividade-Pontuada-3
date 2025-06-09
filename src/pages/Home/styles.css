@@ -7,16 +7,11 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 
-<<<<<<< HEAD
   background: url('../../assets/images/background.avif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-=======
-  background:url('../../assets/images/background.avif')
->>>>>>> f92b8b2d (ok)
 }
-
 .imagem {
   display: flex;
   top: 20px;
@@ -36,11 +31,7 @@ body {
   padding: 50px;
   height: 320px;
   text-align: center;
-  background: radial-gradient(
-    
-    rgba(255, 255, 255, 1) 0%,
-  rgb(128, 128, 128) 100%
-  );
+  background: transparent;
 }
 
 h1 {

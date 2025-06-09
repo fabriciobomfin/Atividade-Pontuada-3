@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import './styles.css'
 
-function ListaDeUsuarios() {
+function Cardapio() {
     const [usuarios, setUsuarios] = useState([])
 
     useEffect(() => {
@@ -46,4 +46,4 @@ function ListaDeUsuarios() {
     
 }
 
-export default ListaDeUsuarios
+export default Cardapio;

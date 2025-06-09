@@ -5,11 +5,12 @@
 .imagem-cardapio {
   border:1px solid #fff;
   border-radius:20px;
+  
 }
 
 .lista-usuarios li {
     text-align: center;
-    margin-bottom: 10px;
+    margin: 20px 0;
     padding: 10px;
     background-color: #333;
     border-radius: 5px;

@@ -1,10 +1,12 @@
 /* src\components\FormularioCadastro\styles.css */
 
 .container {
-    background: white;
+    
     padding: 40px 20px;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background:rgba(30, 30, 30, 0.9);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -14,15 +16,18 @@
 }
   
 .container img {
-    width: 200px;
-    margin-bottom: 20px;
+  max-width: 100%;      /* Garante que não ultrapasse a largura do container */
+  height: auto;         /* Mantém a proporção */
+  display: block;       /* Evita espaços extras abaixo da imagem */
+  margin: 0 auto;       /* Centraliza */
+  object-fit: contain;
 }
   
 h2 {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #284ea7;
+    color: #ffb236;
 }
   
 form {
@@ -35,7 +40,7 @@ form {
   
 input,
 button {
-    width: 100%;
+    width: 70%;
     padding: 12px;
     border-radius: 6px;
     box-sizing: border-box;
@@ -46,19 +51,7 @@ input {
     border: 1px solid #ccc;
 }
   
-button {
-    background-color: #28a745;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    border: 2px solid #28a745; 
-    margin-top: 10px;
-    transition: 0.3s;
-}
-  
-button:hover {
-    background-color: #218838;
-}
+
   
 .link-usuarios {
     margin-top: 25px;
